@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import AgGridEnterprise from 'src/components/AgGridEnterprise.vue';
+import AgGridEnterprise from 'src/components/AgGrid/AgGridEnterprise.vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({

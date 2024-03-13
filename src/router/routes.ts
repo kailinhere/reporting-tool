@@ -7,11 +7,15 @@ const routes: RouteRecordRaw[] = [
   },
   {
     path: '/enterprise',
-    component: () => import('pages/AgGridEnterprise.vue'),
+    component: () => import('src/pages/AgGrid/AgGridEnterprise.vue'),
   },
   {
     path: '/free',
-    component: () => import('pages/AgGridFree.vue'),
+    component: () => import('src/pages/AgGrid/AgGridFree.vue'),
+  },
+  {
+    path: '/stimulsoft',
+    component: () => import('src/pages/Stimulsoft/StimulsoftReport.vue'),
   },
 ];
 

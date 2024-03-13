@@ -15,6 +15,12 @@
           label="Ag Grid Enterprise"
           color="blue-grey-5"
         />
+
+        <q-btn
+          @click="$router.push('/stimulsoft')"
+          label="Stimulsoft Report"
+          color="blue-grey-5"
+        />
       </q-page>
     </q-page-container>
   </q-layout>
