@@ -16,6 +16,10 @@ export default defineComponent({
       let options = new Stimulsoft.Designer.StiDesignerOptions();
       options.appearance.fullScreenMode = true;
 
+      //changing theme
+      options.appearance.theme =
+        Stimulsoft.Designer.StiDesignerTheme.Office2013WhiteCarmine;
+
       let designer = new Stimulsoft.Designer.StiDesigner(
         options,
         'StiDesigner',
