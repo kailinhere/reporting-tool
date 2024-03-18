@@ -13,12 +13,17 @@
     "build": "quasar build"
   },
   "dependencies": {
+    "@boldreports/javascript-reporting-controls": "^5.4.32",
+    "@grapecity/activereports-vue": "^4.2.2",
     "@quasar/extras": "^1.16.4",
     "ag-charts-enterprise": "^9.1.1",
     "ag-charts-vue3": "^9.1.1",
     "ag-grid-charts-enterprise": "^31.1.1",
     "ag-grid-enterprise": "^31.1.1",
     "ag-grid-vue3": "^31.1.1",
+    "jquery": "^3.7.1",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.45",
     "quasar": "^2.8.0",
     "stimulsoft-reports-js": "^2024.2.1",
     "vue": "^3.4.18",
@@ -28,6 +33,7 @@
   "devDependencies": {
     "@intlify/vite-plugin-vue-i18n": "^3.3.1",
     "@quasar/app-vite": "^1.4.3",
+    "@types/jquery": "^3.5.29",
     "@types/node": "^12.20.21",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",

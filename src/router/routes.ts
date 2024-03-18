@@ -17,6 +17,10 @@ const routes: RouteRecordRaw[] = [
     path: '/stimulsoft',
     component: () => import('src/pages/Stimulsoft/StimulsoftReport.vue'),
   },
+  {
+    path: '/active',
+    component: () => import('src/pages/ActiveReport/ActiveReport.vue'),
+  },
 ];
 
 export default routes;

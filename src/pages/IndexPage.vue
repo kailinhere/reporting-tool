@@ -7,29 +7,36 @@
         <q-btn
           @click="$router.push('/free')"
           label="Ag Grid Community"
-          color="blue-grey-7"
+          color="brown-10"
         />
 
         <q-btn
           @click="$router.push('/enterprise')"
           label="Ag Grid Enterprise"
-          color="blue-grey-5"
+          color="brown-8"
         />
 
         <q-btn
           @click="$router.push('/stimulsoft')"
           label="Stimulsoft Report"
-          color="blue-grey-5"
+          color="brown-7"
+        />
+
+        <q-btn
+          @click="$router.push('/active')"
+          label="Active Report"
+          color="brown-5"
         />
       </q-page>
     </q-page-container>
   </q-layout>
+  <active-report></active-report>
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
-
+import { defineComponent } from 'vue';
 export default defineComponent({
+  components: {},
   setup() {
     return {};
   },
