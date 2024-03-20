@@ -27,14 +27,20 @@
           label="Active Report"
           color="brown-5"
         />
+
+        <q-btn
+          @click="$router.push('/tableau')"
+          label="Tableau"
+          color="brown-4"
+        />
       </q-page>
     </q-page-container>
   </q-layout>
-  <active-report></active-report>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+
 export default defineComponent({
   components: {},
   setup() {

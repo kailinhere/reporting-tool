@@ -21,6 +21,10 @@ const routes: RouteRecordRaw[] = [
     path: '/active',
     component: () => import('src/pages/ActiveReport/ActiveReport.vue'),
   },
+  {
+    path: '/tableau',
+    component: () => import('src/pages/Tableau/TableauDesktop.vue'),
+  },
 ];
 
 export default routes;
